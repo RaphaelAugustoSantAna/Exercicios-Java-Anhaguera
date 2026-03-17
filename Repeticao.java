@@ -1,13 +1,11 @@
 public class Repeticao {
     public static void main(String[] args) {
 
-        int i = 1;
+        for (int i = 1; i <= 10; i++) {
 
-        do {
-
-            System.out.println("** Raphael **");
+            System.out.println("** Vai Corinthians **");
             i++;
-        } while (i <= 10);
+        }
 
         System.out.println("Fim do Programa!");
     }
