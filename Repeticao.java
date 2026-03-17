@@ -3,11 +3,11 @@ public class Repeticao {
 
         int i = 1;
 
-        while (i <= 10) {
+        do {
 
-            System.out.println("** Vai Corinthians **");
+            System.out.println("** Raphael **");
             i++;
-        }
+        } while (i <= 10);
 
         System.out.println("Fim do Programa!");
     }
