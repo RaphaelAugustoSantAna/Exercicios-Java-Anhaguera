@@ -22,7 +22,7 @@ public class Aluno {
         return matricula;
     }
 
-     public void setMatricula(int matricula) {
+    public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
 
@@ -30,7 +30,16 @@ public class Aluno {
         return nota;
     }
 
-     public void setNota(double nota) {
-        this.nota = nota;
+    public void setNota(double nota) {
+        if (nota >= 0 && nota <= 10) {
+
+            this.nota = nota;
+        } else {
+            System.out.println("Nota inválida! deve estar entre 0 e 10.");
+        }
+    }
+
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome + ", Matricula: " + matricula + ", Nota: " + nota);
     }
 }
