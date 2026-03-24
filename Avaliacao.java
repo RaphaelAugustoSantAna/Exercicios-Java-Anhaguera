@@ -1,5 +1,6 @@
-package Heranca;
+
 
 public interface Avaliacao {
     
+    double calcularMedia();
 }
