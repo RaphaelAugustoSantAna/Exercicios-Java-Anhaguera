@@ -1,9 +1,14 @@
-public static void main(String[] args) {
-        System.out.println("Tipos de Array");
+public class Main {
+        public static void main(String[] args) {
+            System.out.println("** Array de nomes... **");
 
-        GerenciadorArray ga = new GerenciadorArray(10);
-        ga.inserir(5);
-        ga.inserir(10);
-        ga.inserir(15);
-        ga.exibir();
+            ListaNomes lista = new ListaNomes();
+            lista.adicionarNome("Raphael");
+            lista.adicionarNome("Isaac");
+            lista.adicionarNome("Francisco");
+            lista.adicionarNome("Livia");
+
+            lista.listarNomes();
+        }
+
     }
